@@ -45,6 +45,13 @@ a:hover {
     margin-right: auto;
     color: white;
 }
+
+.hobbies{
+    display: block;
+    margin-right: auto;
+    color: white;
+}
+
 .nav li {
   padding: 5px 10px 10px 10px;
 }
@@ -57,11 +64,38 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/springdale.jpeg') no-repeat center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
+
+.experience {
+  text-align: center;
+  background: url('images/experiencebackground.jpeg') no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 200px;
+}
+
+.hobbies {
+  text-align: left;
+  background: url('images/hobbies-background.jpeg') no-repeat center ;
+  background-size: cover;
+  background-position: 0px 10px;
+  padding-top: 150px;
+  padding-left: 85px;
+}
+
+.contact {
+  text-align: ;
+  background: url('') no-repeat center ;
+  background-size: ;
+  background-position: 0px 0px;
+  padding-top: 100px;
+  padding-left: 0px;
+}
+
 header {
   line-height: 1.5;
 }
@@ -70,12 +104,13 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border: 4px solid white;
+  transition: all .3s;
 }
-header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+header .profile-image:hover{
+  transform: scale(1.2) rotate(10deg);
 }
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -83,7 +118,17 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
-} 
+}
+
+.tag-experience {
+  background-color: #efefef;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+}
+
 .location {
   background-color: #222;
   color: yellow;
@@ -98,8 +143,54 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #3E4FA1;
+}
+
+.card-experience {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 1000px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
+.card-experience:hover {
+  border-color: #3E4FA1;
+}
+
+.card-hobbies {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #DDDDDD;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
+.card-hobbies:hover {
+  border-color: #383838;
+}
+
+.card-contact {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #FFFFFF;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
+.card-contact:hover {
+  border-color: #383838;
 }
 
 ul.skills {
@@ -118,6 +209,7 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #0399ff;
+
 }
 
 footer {
